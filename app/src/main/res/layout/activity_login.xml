@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="haui.vn.checksalary.LoginActivity">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Đăng nhập"
+        android:fontFamily="serif"
+        android:textColor="#22b1ff"
+        android:textAllCaps="false"
+        android:textSize="20pt"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:hint="Email."/>
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:hint="Mật khẩu."/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnLogin"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Đăng nhập"
+            android:textAllCaps="false"
+            android:background="@drawable/round_corner"
+            android:textColor="#ffff"
+            android:textSize="8pt"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa có tài khoản? Đăng ký tại đây."
+            android:textAllCaps="false"
+            android:textStyle="italic|bold"
+            android:textSize="6pt"
+            android:textColor="#e4616161"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

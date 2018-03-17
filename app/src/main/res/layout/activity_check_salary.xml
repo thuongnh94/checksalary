@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="haui.vn.checksalary.CheckSalaryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#22b1ff"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Text"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#e8ff2226"
+            android:text="Đăng xuất"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="7pt" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMonth"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Bảng lương"
+        android:textColor="#22b1ff"
+        android:textSize="24pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Thông tin: "
+            android:textSize="9pt"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Name "
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/tvChucVu"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Chức vụ"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/tvLCB"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Lương cơ bản"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/tvPhuCap"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Phụ cấp"
+                android:textSize="8pt" />
+            <TextView
+                android:id="@+id/tvNhaO"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Hỗ trợ nhà ở"
+                android:textSize="8pt" />
+            <TextView
+                android:id="@+id/tvDiLai"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Hỗ trợ đi lại"
+                android:textSize="8pt" />
+            <TextView
+                android:id="@+id/tvTN"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Hỗ trợ trách nhiệm"
+                android:textSize="8pt" />
+            <TextView
+                android:id="@+id/tvBHXH"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bảo hiểm xã hội"
+                android:textSize="8pt" />
+            <TextView
+                android:id="@+id/tvBHYT"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bảo hiểm Y tế"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/tvBHTN"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bảo hiểm thất nghiệp"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/tvTong"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Tổng lương:"
+                android:textColor="#000"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

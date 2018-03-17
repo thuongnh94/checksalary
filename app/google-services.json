@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "833220192051",
+    "firebase_url": "https://checksalary-f99d9.firebaseio.com",
+    "project_id": "checksalary-f99d9",
+    "storage_bucket": "checksalary-f99d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833220192051:android:c7435cee3ce047e5",
+        "android_client_info": {
+          "package_name": "haui.vn.checksalary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833220192051-sr8pp4ausak5kek7br43jc95j7t4nl3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZcqt1peBBKujvj0vUy6ROBNQ9Kc9TaRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

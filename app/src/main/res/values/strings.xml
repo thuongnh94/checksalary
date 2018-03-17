@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CheckSalary</string>
+    <string-array name="position_array">
+        <item>Giám đốc</item>
+        <item>Thư ký</item>
+        <item>Nhân viên</item>
+        <item>Bảo vệ</item>
+        <item>Trưởng phòng</item>
+        <item>Phó phòng</item>
+        <item>Tạp vụ</item>
+        <item>Lễ tân</item>
+    </string-array>
+</resources>
